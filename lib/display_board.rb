@@ -1,7 +1,3 @@
-def "prints a blank board when the board array is empty"
-  puts [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-end
-
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "___________"
